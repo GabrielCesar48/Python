@@ -16,3 +16,4 @@ ano_especifico = 1998
 livros_disponiveis_ano = Livro.verificar_disponibilidade(ano_especifico)
 print(livros_disponiveis_ano)
     # Crie um arquivo chamado main.py, importe a classe Livro e, no arquivo main.py, instancie dois objetos da classe Livro e exiba a mensagem formatada utilizando o método str.
+

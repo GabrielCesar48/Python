@@ -4,9 +4,8 @@ restaurante_praca = Restaurante(nome='Praça', categoria='Gourmet')
 restaurante_mexicano = Restaurante(nome='Mexican Food', categoria='Mexicana')
 restaurante_japones = Restaurante(nome='Japa', categoria='Japonesa')
 
-restaurante_praca.receber_avaliacao('Gi', 9)
-restaurante_praca.receber_avaliacao('Gabriel', 8)
-restaurante_praca.receber_avaliacao('Emy', 7)
+restaurante_praca.receber_avaliacao()
+restaurante_praca.receber_avaliacao()
 
 
 
