@@ -5,4 +5,5 @@ class Prato(ItemCardapio):
         super().__init__(nome, preco)
         self._descricao = descricao
         
-        
+    def __str__(self):
+        return self._nome
