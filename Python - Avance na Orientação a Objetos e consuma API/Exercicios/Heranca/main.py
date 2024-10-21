@@ -4,9 +4,9 @@
 from carro import Carro
 from moto import Moto
 
-peugeout_208 = Carro(marca='Peugeout', modelo='208', portas=4)
-onix = Carro(marca='Chevrolet', modelo='Onix', portas=4)
-fusca = Carro(marca='Volkswagem', modelo='Fusca', portas=2 )
+peugeout_208 = Carro(marca='Peugeout', modelo='208', cor='cinza')
+onix = Carro(marca='Chevrolet', modelo='Onix', cor='azul')
+fusca = Carro(marca='Volkswagem', modelo='Fusca', cor='branco' )
 
 bros = Moto(marca='Honda', modelo='Bros', tipo='Casual')
 cg150 = Moto(marca='Honda', modelo='CG150', tipo='Casual')
